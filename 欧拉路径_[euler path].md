@@ -1,4 +1,4 @@
-# 欧拉路径 
+# 欧拉路径_[euler path]
 
 ##### iteration
 
