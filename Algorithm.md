@@ -10,4 +10,9 @@
 
    `max_element(v.begin(),v.end(),[](){});`
 
-4. 1
+4. `string s`
+
+   `transform(s.begin(),s.end(),s.begin(),::tolower);`
+
+5. 1
+
