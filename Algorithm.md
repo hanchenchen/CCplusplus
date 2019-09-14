@@ -14,5 +14,26 @@
 
    `transform(s.begin(),s.end(),s.begin(),::tolower);`
 
+   ```c++
+   int main(){
+       string a,b;
+       cin>>a;
+       
+       transform(a.begin(),a.end(),b.begin(),::tolower);
+       cout<<b<<endl;//空
+       
+       b="x";
+       transform(a.begin(),a.end(),b.begin(),::tolower);
+       cout<<b<<endl;//a
+       
+       b="xxxxx";
+       transform(a.begin(),a.end(),b.begin(),::tolower);
+       cout<<b<<endl;//abcxx
+       
+       cout<<a<<endl;//ABC
+       return 0;
+   }
+   ```
+
 5. 1
 
